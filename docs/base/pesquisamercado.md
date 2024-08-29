@@ -96,7 +96,15 @@ A aplicação da técnica de pesquisa e comparação entre os aplicativos de mon
 
 ## Referências
 
-> Documentação oficial dos aplicativos Strava, RunKeeper, Nike Run Club, Garmin Connect, Sports Tracker, Polar Beat, MapMyRun, Endomondo, Adidas Running by Runtastic.
+> [Strava](https://www.strava.com/)  
+> [RunKeeper](https://runkeeper.com/)  
+> [Nike Run Club](https://www.nike.com.br/sc/corrida-app-nike-run-club?srsltid=AfmBOooXcAoPKCFrFuRn7jzLyTjSNRtvCHQE9L3MYzcrgRGtfveWnDbh)  
+> [Garmin Connect](https://connect.garmin.com/)  
+> [Sports Tracker](https://www.sports-tracker.com/)  
+> [Polar Beat](https://support.polar.com/br/beat#all)  
+> [MapMyRun](https://www.mapmyrun.com/)  
+> [Endomondo](https://www.endomondo.com/)  
+> [Adidas Running by Runtastic](https://www.runtastic.com/)
 
 ## Autor(es)
 
