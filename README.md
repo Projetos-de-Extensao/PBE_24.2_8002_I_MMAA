@@ -1,11 +1,3 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto). !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2024.1_PFE1_ProjetoPandora!!**
- 
- (Apague essa seção)
-
 # NomedoProjeto
 
 **Número do Grupo**: XX<br>
@@ -14,11 +6,13 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  Alex Cyrillo |
+| xx/xxxxxx  |  André Costa |
+| xx/xxxxxx  |  Marcelo Saggio |
+| xx/xxxxxx  |  Michel Lutegar |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Será projetado e codificado um sistema back-end de um aplicativo de gerenciamento de atividades físicas.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
