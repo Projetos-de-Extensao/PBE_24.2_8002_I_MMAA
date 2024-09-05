@@ -15,17 +15,11 @@ title: Mapas Mentais
  
 ## Versão 1.0
  
-### Mapa mental 1
+### Mapa mental
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/mapa_mental1.jpg)](../assets/Mapas_mentais/mapa_mental1.jpg)
+[![Mapa mental Entrevista](../assets/Mapas_mentais/mapa_mental.png)](../assets/Mapas_mentais/mapa_mental.png)
 
-<p align="justify"> Este mapa mental traz uma visão clara sobre as funcionalidades básicas do aplicativo, incluindo o cadastro manual de atividades e a importação de dados. Ele foca no monitoramento das métricas principais, como tempo de atividade, calorias queimadas, distância percorrida, velocidade e elevação, destacando a importância de fornecer feedback visual através de gráficos de progresso. </p>
-
-### Mapa mental 2
- 
-[![Mapa mental Entrevista](../assets/Mapas_mentais/mapa_mental2.jpg)](../assets/Mapas_mentais/mapa_mental2.jpg)
-
-<p align="justify"> Este segundo mapa mental destaca as funcionalidades relacionadas ao histórico de atividades e à evolução do usuário. Ele aborda o registro de atividades manuais e automáticas, o cadastro de esportes específicos e o progresso gráfico, que inclui a visualização de hábitos, médias semanais e projeções de desempenho. </p>
+<p align="justify"> Este mapa mental destaca as funcionalidades relacionadas ao histórico de atividades e à evolução do usuário. Ele aborda o registro de atividades manuais e automáticas, o cadastro de esportes específicos e o progresso gráfico, que inclui a visualização de hábitos, médias semanais e projeções de desempenho. </p>
 
 ## Conclusão
  
