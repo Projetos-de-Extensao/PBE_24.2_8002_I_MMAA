@@ -15,14 +15,14 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 
 ### Roteiro
 
-- Você.... ?
-- Como funcionava.... ?
-- Você já usou alguma aplicação.... 
-- Teve algum problema.... ?
-- O que você acha de uma aplicação..... ?
-- Para você qual seria o sistema ideal.... ?
-- Você gostaria de poder se cadastrar..... 
-- você gostaria que as informações... 
+- Você já usou alguma aplicação de monitoramento de atividades físicas?
+- Teve algum problema ao usar essas aplicações?
+- O que você acha de uma aplicação mais simples, focada apenas no desempenho físico?
+- Para você, qual seria o sistema ideal?
+- Você gostaria de poder se cadastrar e acessar seus dados em diferentes dispositivos?
+- Você gostaria que as informações fossem exibidas em tempo real durante suas atividades?
+- Como você definiria uma experiência de usuário ideal ao utilizar esse tipo de sistema?
+- Como você gostaria que o feedback de desempenho fosse apresentado?
 
 
 ## Entrevistas 
