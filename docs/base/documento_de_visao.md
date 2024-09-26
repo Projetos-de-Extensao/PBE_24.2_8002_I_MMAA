@@ -19,7 +19,6 @@ O projeto tem como finalidade a criação de um sistema que possui como objetivo
 Dificuldade em gerenciar e organizar os dados de uma atividade física, sem um instrumento de medição digital ou aplicativo.
 
 ### Impactados
-/
 Usuários que buscam ter um maior controle sobre as suas atividades físicas diárias; nutricionistas que desejam ter acesso as atividades físicas de seus clientes para uma avaliação mais precisa; atletas que necessitam de um acompanhamento mais preciso de suas atividades.
 
 ### Consequência
@@ -56,10 +55,10 @@ O cliente poderá realizar gravação de suas atividades físicas do momento de 
 O cliente poderá realizar o armazenameneto de suas atividades físicas realizadas, para que quando necessário tenho seus registros.
 </p>
 
-### Exportação de Atividades
+### Importação de Atividades
 
 <p align = "justify">
-O cliente poderá realizar a exportação dos dados de suas atividades físicas armazenados para o uso conforme necessário.
+O cliente poderá realizar a importação dos dados de suas atividades físicas a partir de aplicativos externos para o uso conforme necessário.
 </p>
 
 ## Restrições
@@ -74,5 +73,4 @@ A aplicação não será responsável por iniciar automaticamente a identeficaç
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 13/09/2024 | 1.0 | Criação do documento | Alex Cyrillo | 
-
-/
+| 26/09/2024 | 1.0 | Ajustes | Michel Lutegar | 
