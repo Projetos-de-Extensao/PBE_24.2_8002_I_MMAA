@@ -3,131 +3,65 @@ id: prototipo
 title: Protótipo
 ---
 
-# Não precisa entregar para a AP1
+# Prototipação do Projeto de Monitoramento de Atividades Físicas
+
 ## Introdução
- 
-<p align = "justify">
-A construção do protótipo de alta fidelidade auxilia a equipe de desenvolvimento a encontrar um nível de detalhes abrangentes, extrair funcionalidades, testar usabilidade, e também fornece uma base para o gerenciamento do projeto pois com o protótipo é possível realizar estimativas de quanto tempo será necessário desempenhar em cada funcionalidade.
-</p>
- 
-## Metodologia
- 
-<p align = "justify">
-Iniciamos o projeto através dos levantamentos iniciais da equipe, após discussões a ferramenta Figma foi selecionada para produzir o protótipo de alta fidelidade com auxílio do Material Design Color Tool.
-</p>
- 
-## Protótipo de alta fidelidade
- 
-### Versão 1.0
- 
-### Tela Login
-[![Prototipo 1](../assets/prototipo/prototipo_1.png)](../assets/prototipo/prototipo_1.png)
- 
-### Tela Cadastro 1
- 
-[![Prototipo 2](../assets/prototipo/prototipo_2.png)](../assets/prototipo/prototipo_2.png)
- 
-### Tela Cadastro 2
- 
-[![Prototipo 3](../assets/prototipo/prototipo_3.png)](../assets/prototipo/prototipo_3.png)
- 
-### Tela Esqueceu Senha
- 
-[![Prototipo 4](../assets/prototipo/prototipo_4.png)](../assets/prototipo/prototipo_4.png)
- 
-### Tela do Feed
-[![Prototipo 5](../assets/prototipo/prototipo_5.png)](../assets/prototipo/prototipo_5.png)
- 
-### Tela Feed com configurações
-[![Prototipo 6](../assets/prototipo/prototipo_6.png)](../assets/prototipo/prototipo_6.png)
- 
-### Tela Perfil
-[![Prototipo 7](../assets/prototipo/prototipo_7.png)](../assets/prototipo/prototipo_7.png)
- 
-### Tela Cadastrar torneio 1
-[![Prototipo 8](../assets/prototipo/prototipo_8.png)](../assets/prototipo/prototipo_8.png)
- 
-### Tela Cadastrar torneio 2
- 
-[![Prototipo 9](../assets/prototipo/prototipo_9.png)](../assets/prototipo/prototipo_9.png)
- 
-### Tela Cadastrar torneio 3
-[![Prototipo 10](../assets/prototipo/prototipo_10.png)](../assets/prototipo/prototipo_10.png)
- 
-### Tela Cadastrar torneio 4
-[![Prototipo 11](../assets/prototipo/prototipo_11.png)](../assets/prototipo/prototipo_11.png)
- 
-### Tela com meus torneios
-[![Prototipo 12](../assets/prototipo/prototipo_12.png)](../assets/prototipo/prototipo_12.png)
- 
-### Tela de inscrição em torneio
-[![Prototipo 13](../assets/prototipo/prototipo_13.png)](../assets/prototipo/prototipo_13.png)
 
-<p align = "justify">
-Na primeira versão do protótipo utilizamos a ferramenta <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0">Material Design Color Tool</a>  para auxiliar na criação da paleta de cores do aplicativo, definimos as cores base do aplicativo mas as cores definidas para as telas 12 e 13 ainda não foram decididas.
-</p>
- 
-### Versão 2.0
+Este documento apresenta a prototipação do projeto de monitoramento de atividades físicas. O objetivo é oferecer uma visão clara das funcionalidades já desenvolvidas e a serem implementadas, auxiliando na organização e planejamento do projeto. Atualmente, o protótipo conta com três páginas principais: **Login**, **Cadastro de Usuário**, e **Cadastro de Atividade**. O protótipo pode ser acessado através do [link aqui](https://marvelapp.com/prototype/8j57jd3).
 
-### Tela Login
-[![Prototipo 1](../assets/prototipo/tela_de_login.png)](../assets/prototipo/tela_de_login.png)
+## Páginas Desenvolvidas
 
-### Tela Cadastro 
- 
-[![Prototipo 2](../assets/prototipo/registrar.png)](../assets/prototipo/registrar.png)
+### 1. Página de Login
+A página de login permite que o usuário acesse o sistema utilizando suas credenciais.
 
-### Tela Esqueceu Senha
- 
-[![Prototipo 3](../assets/prototipo/esqueceu_a_senha.png)](../assets/prototipo/esqueceu_a_senha.png)
+- **Elementos**:
+  - Campo para **email**.
+  - Campo para **senha**.
+  - **Botão de login**.
+  - **Link para recuperação de senha**, caso o usuário tenha esquecido a senha.
 
-### Tela Perfil
-[![Prototipo 4](../assets/prototipo/editar_perfil.png)](../assets/prototipo/editar_perfil.png)
+### 2. Página de Cadastro de Usuário
+A página de cadastro permite que novos usuários se registrem na plataforma.
 
-### Tela do Feed
-[![Prototipo 5](../assets/prototipo/feed.png)](../assets/prototipo/feed.png)
+- **Elementos**:
+  - Campos para **nome completo**, **email**, **senha** e **confirmação de senha**.
+  - **Botão de cadastro** para enviar o formulário.
+  - **Link para a página de login**, caso o usuário já tenha uma conta.
 
-### Tela Cadastrar em um torneio
-[![Prototipo 6](../assets/prototipo/cadastrar_no_torneio.png)](../assets/prototipo/cadastrar_no_torneio.png)
+### 3. Página de Cadastro de Atividade Física
+Nesta página, o usuário pode registrar suas atividades físicas no sistema.
 
-### Tela Cadastrar torneio
-[![Prototipo 7](../assets/prototipo/cadastrar_torneio.png)](../assets/prototipo/cadastrar_torneio.png)
+- **Elementos**:
+  - **Campos de entrada** para:
+    - Tipo de atividade (ex.: corrida, ciclismo).
+    - **Data e hora** da atividade.
+    - **Duração** da atividade.
+    - **Distância percorrida** (se aplicável).
+    - **Calorias queimadas** (se aplicável).
+    - Campo para **notas ou observações** adicionais.
+  - **Botão para salvar a atividade** e registrar no histórico do usuário.
 
-### Tela Cadastrar torneio 2
-[![Prototipo 8](../assets/prototipo/cadastrar_torneio_2.png)](../assets/prototipo/cadastrar_torneio_2.png)
+## Próximas Etapas
 
-### Tela dos meus torneios
-[![Prototipo 9](../assets/prototipo/meus_torneios.png)](../assets/prototipo/meus_torneios.png)
+Com as três páginas já prototipadas, o próximo passo envolve a criação das seguintes páginas:
 
-### Tela das chaves do torneio
-[![Prototipo 10](../assets/prototipo/ver_torneio.png)](../assets/prototipo/ver_torneio.png)
+1. **Histórico de Atividades**: onde o usuário poderá visualizar as atividades registradas, com filtros por data, tipo de atividade e outros critérios relevantes.
+2. **Painel de Controle/Dashboard**: uma visão geral do desempenho do usuário, com gráficos e resumos das atividades.
+3. **Configurações de Perfil**: página onde o usuário poderá atualizar seus dados pessoais, definir metas e ajustar preferências de notificações.
 
-### Tela das estatíscicas
-[![Prototipo 11](../assets/prototipo/ver_estatisticas.png)](../assets/prototipo/ver_estatisticas.png)
-
-### Tela de adicionar resultado das partidas
-[![Prototipo 12](../assets/prototipo/adicionar_resultado_da_partida.png)](../assets/prototipo/adicionar_resultado_da_partida.png)
-
-link para o <a href="https://www.figma.com/file/karoCnQtvMXWHEwdMuhQs0/Prototipo?node-id=0%3A1">Protótipo</a>
- 
 ## Conclusão
- 
-<p align = "justify">
-A partir da elaboração do protótipo foi possível ter uma noção inicial da interface do usuário, definindo fluxo, paleta de cores, botões, app bars e diversas outras funcionalidades
-</p>
+
+O protótipo já oferece as principais funcionalidades de entrada de dados do usuário, permitindo a autenticação, registro e cadastro de atividades físicas. As próximas fases do desenvolvimento irão focar na criação de páginas de visualização e análise de dados, oferecendo uma experiência completa para o monitoramento de atividades físicas.
+
  
 ## Referências
  
 > Material Design Color Tool. Disponível em:  https://material.io/resources/color/#!/?view.left=0&view.right=0
- 
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
- 
 > Ferramenta Figma. Disponível em https://www.figma.com
  
 ## Autor(es)
  
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 07/09/20 | 1.0 | Criação do documento | Lucas Alexandre e Matheus Estanislau  |
-| 07/09/20 | 1.1 | Adicionado as imagens do protótipo | Lucas Alexandre e Matheus Estanislau  |
-| 07/09/20 | 1.2 | Adicionado conclusão e referências  | Lucas Alexandre e Matheus Estanislau  |
-| 26/10/20 | 2.0 | Adicionada a versão 2.0 do protótipo| João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan|
+| 12/09/20 | 1.0 | Criação do documento | Michel Lutegar  |
