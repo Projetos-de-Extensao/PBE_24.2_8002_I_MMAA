@@ -1,0 +1,20 @@
+@startuml
+actor "Usuário Autenticado" as UsuarioAutenticado
+
+rectangle Sistema {
+  usecase "Acessar Página de Cadastro de Atividade Esportiva" as UC_AcessarPaginaCadastro
+  usecase "Definir Nome da Nova Atividade" as UC_DefinirNomeAtividade
+  usecase "Selecionar Métricas a Serem Monitoradas" as UC_SelecionarMetricas
+  usecase "Validar Métricas e Nome" as UC_ValidarMetricasNome
+  usecase "Salvar Nova Atividade Esportiva" as UC_SalvarAtividade
+  usecase "Confirmar Atividade e Exibir Opção para Registro Futuro" as UC_ConfirmarAtividade
+}
+
+UsuarioAutenticado --> UC_AcessarPaginaCadastro
+UsuarioAutenticado --> UC_DefinirNomeAtividade
+UsuarioAutenticado --> UC_SelecionarMetricas
+UC_SelecionarMetricas --> UC_ValidarMetricasNome
+UC_ValidarMetricasNome --> UC_SalvarAtividade : [Dados Válidos]
+UC_SalvarAtividade --> UC_ConfirmarAtividade
+UC_ValidarMetricasNome --> UC_DefinirNomeAtividade : [Dados Inválidos]
+@enduml

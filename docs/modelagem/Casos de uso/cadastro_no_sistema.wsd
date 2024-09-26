@@ -1,0 +1,19 @@
+@startuml
+actor "Visitante" as Visitante
+
+rectangle Sistema {
+  usecase "Acessar Página de Cadastro" as UC_AcessarPaginaCadastro
+  usecase "Inserir Informações de Cadastro" as UC_InserirInfoCadastro
+  usecase "Validar Informações" as UC_ValidarInfo
+  usecase "Criar Nova Conta" as UC_CriarConta
+  usecase "Autenticar Usuário ou Redirecionar" as UC_AutenticarOuRedirecionar
+  usecase "Exibir Mensagem de Erro" as UC_ExibirErro
+}
+
+Visitante --> UC_AcessarPaginaCadastro
+Visitante --> UC_InserirInfoCadastro
+UC_InserirInfoCadastro --> UC_ValidarInfo
+UC_ValidarInfo --> UC_CriarConta : Informações Válidas
+UC_ValidarInfo --> UC_ExibirErro : Informações Inválidas
+UC_CriarConta --> UC_AutenticarOuRedirecionar
+@enduml

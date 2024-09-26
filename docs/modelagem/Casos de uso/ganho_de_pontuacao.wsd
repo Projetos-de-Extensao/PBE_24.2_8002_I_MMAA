@@ -1,0 +1,15 @@
+@startuml
+actor "Usuário Autenticado" as UsuarioAutenticado
+
+rectangle Sistema {
+  usecase "Finalizar Atividade Física" as UC_FinalizarAtividade
+  usecase "Calcular XP Baseado nas Métricas" as UC_CalcularXP
+  usecase "Atualizar Pontuação e Nível do Usuário" as UC_AtualizarXP
+  usecase "Exibir Pontuação Atualizada" as UC_ExibirPontuacao
+}
+
+UsuarioAutenticado --> UC_FinalizarAtividade
+UC_FinalizarAtividade --> UC_CalcularXP
+UC_CalcularXP --> UC_AtualizarXP
+UC_AtualizarXP --> UC_ExibirPontuacao
+@enduml

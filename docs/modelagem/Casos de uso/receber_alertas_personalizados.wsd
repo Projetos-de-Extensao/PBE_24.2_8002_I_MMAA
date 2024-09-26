@@ -1,0 +1,18 @@
+@startuml
+actor "Usuário Autenticado" as UsuarioAutenticado
+actor "Sistema" as Sistema
+
+rectangle Sistema {
+  usecase "Acessar Configurações de Alertas" as UC_AcessarConfiguracoes
+  usecase "Configurar Metas e Alertas Personalizados" as UC_ConfiguracaoAlertas
+  usecase "Monitorar Atividades em Tempo Real" as UC_MonitorarAtividades
+  usecase "Enviar Alerta ao Usuário" as UC_EnviarAlerta
+  usecase "Exibir Alerta Personalizado" as UC_ExibirAlerta
+}
+
+UsuarioAutenticado --> UC_AcessarConfiguracoes
+UsuarioAutenticado --> UC_ConfiguracaoAlertas
+UC_ConfiguracaoAlertas --> UC_MonitorarAtividades
+UC_MonitorarAtividades --> UC_EnviarAlerta
+UC_EnviarAlerta --> UC_ExibirAlerta
+@enduml
