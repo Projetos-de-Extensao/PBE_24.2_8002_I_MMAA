@@ -25,7 +25,7 @@ title: Mapas Mentais
 
 ### Mapa mental
 
-[![Mapa mental Entrevista](../assets/Mapas_mentais/mapa_mental.png)](../assets/Mapas_mentais/mapa_mental_2.png)
+[![Mapa mental 2 Entrevista](../assets/Mapas_mentais/mapa_mental.png)](../assets/Mapas_mentais/mapa_mental_2.png)
 
 ## Conclusão
  
