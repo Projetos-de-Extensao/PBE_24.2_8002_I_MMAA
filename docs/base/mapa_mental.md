@@ -21,6 +21,12 @@ title: Mapas Mentais
 
 <p align="justify"> Este mapa mental destaca as funcionalidades relacionadas ao histórico de atividades e à evolução do usuário. Ele aborda o registro de atividades manuais e automáticas, o cadastro de esportes específicos e o progresso gráfico, que inclui a visualização de hábitos, médias semanais e projeções de desempenho. </p>
 
+## Versão 2.0
+
+### Mapa mental
+
+[![Mapa mental Entrevista](../assets/Mapas_mentais/mapa_mental.png)](../assets/Mapas_mentais/mapa_mental_2.png)
+
 ## Conclusão
  
 <p align="justify"> A criação do mapa mental permitiu uma visualização eficiente do escopo do aplicativo de monitoramento de atividades físicas. Com ele, foi possível organizar as funcionalidades essenciais e diferenciais do projeto, como a importação de dados e o monitoramento de métricas, de forma a garantir uma experiência de usuário fluida e personalizada. O uso de gráficos e relatórios ajuda o usuário a acompanhar seu progresso, enquanto a inclusão de um habit tracker promove a consistência nas atividades físicas. </p>
