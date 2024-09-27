@@ -1,15 +1,15 @@
 ---
-id: interacao2
-title: Interação 2
+id: iteracao2
+title: Iteração 2
 ---
 
-# Interação 2 (30/08/2024 à 12/09/2024)
+# Iteração 2 (30/08/2024 à 12/09/2024)
 
 
-## Planejamento de Interação
+## Planejamento de Iteração
 #### Presentes na reunião: Todos
 
-###  Lista de Tarefas da Interação
+###  Lista de Tarefas da Iteração
 
 |Tarefa|Responsabilidade|
 |---|----|
@@ -21,7 +21,7 @@ title: Interação 2
 
 #### Presentes na reunião: Todos
 
-### Dívidas da Interação
+### Dívidas da Iteração
 - Nenhuma
 
 ### Riscos Encontrados
