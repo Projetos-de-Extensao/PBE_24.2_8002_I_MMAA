@@ -1,5 +1,5 @@
 ---
-id: interação2
+id: interacao2
 title: Interação 2
 ---
 
@@ -13,9 +13,9 @@ title: Interação 2
 
 |Tarefa|Responsabilidade|
 |---|----|
-| Realizar Brainstorm | André Costa |
-| Conduzir Entrevista | Marcelo |
-| Criar Mapa Mental | Michel Lutegar |
+| Realizar Brainstorm| André Costa|
+| Realizar Entrevista| Marcelo Saggio|
+| Elaborar Mapa Mental| Michel Lutegar|
 
 ## Sprint Retrospective/Review Meeting
 
@@ -25,27 +25,19 @@ title: Interação 2
 - Nenhuma
 
 ### Riscos Encontrados
-
-- Nenhum: Plano de gerenciamento de riscos não implementado.
+- Nenhum
 
 ### Pontos Positivos
-
 - Comunicação
 - Colaborações em equipe
 
-![pontos positivos](../assets/Sprints/S2-positivos.png)
-
 ### Pontos Negativos
-
-- Falta de integrantes do grupo na apresentação do trabalho no dia 13, sem aviso prévio ao professor.
-
-![pontos negativos](../assets/Sprints/S2-negativos.png)
+- Falta de alguns integrantes na apresentação do trabalho no dia 13, sem aviso prévio ao professor.
 
 ### O que podemos melhorar?
-- Melhorar a comunicação de todas as partes da equipe.
+- A comunicação entre todas as partes da equipe precisa melhorar.
 
 ### Ferramentas utilizadas
-
 - ChatGPT
 - WhatsApp
 - Git
@@ -53,4 +45,4 @@ title: Interação 2
 ---
 
 ### Histórico de Edição:
-- Iteração realizada no dia 27/09/2024. O brainstorm foi feito por André Costa, a entrevista conduzida por Marcelo e o mapa mental elaborado por Michel Lutegar.
+- Documento referente à iteração realizada no dia 27/09/2024, entre 30/08/2024 e 12/09/2024.
