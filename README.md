@@ -1,33 +1,62 @@
-# NomedoProjeto
+# Monitoramento de Atividades Físicas - MMAA
 
-**Número do Grupo**: XX<br>
-**Código da Disciplina**: FGA0208-T01<br>
+**Número do Grupo**: MMAA<br>
+**Código da Disciplina**: 8002.1<br>
+
+![Logo da Empresa](./assets/logo_empresa.png)
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| 202401000191  |  Alex Cyrillo |
-| 202208385371  |  André Costa |
-| 202307164186 |  Marcelo Saggio |
-| 202208385192  |  Michel Lutegar |
+| Matrícula       | Aluno          |
+| --------------- | -------------- |
+| 202401000191    | Alex Cyrillo    |
+| 202208385371    | André Costa     |
+| 202307164186    | Marcelo Saggio  |
+| 202208385192    | Michel Lutegar  |
 
-## Sobre 
-Será projetado e codificado um sistema back-end de um aplicativo de gerenciamento de atividades físicas.
+## Sobre
+Este projeto consiste em um software de **monitoramento de atividades físicas**, onde os usuários podem registrar e acompanhar suas atividades esportivas, como corrida e ciclismo. O sistema oferece funcionalidades avançadas, incluindo a **visualização de atividades anteriores**, a possibilidade de **visualizar as atividades dos amigos** e competir em um **ranking gamificado**.
+
+Os usuários podem acessar suas métricas detalhadas, como distância, tempo e calorias queimadas, e acompanhar seu progresso ao longo do tempo. A plataforma ainda permite que os usuários interajam com seus amigos, promovendo a motivação e competição saudável, com base em um sistema de gamificação.
+
+## Diferenciais
+- Visualização das atividades dos amigos.
+- Sistema de gamificação com ranking de competição.
+- Relatórios detalhados de desempenho esportivo.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+**Linguagens**: Python (Django)<br>
+**Tecnologias**: Git, WhatsApp, ChatGPT, Canvas, Figma, PlantUML<br>
+
+### Pré-requisitos
+- Python 3.8 ou superior.
+- Django Framework.
+- Git instalado.
+
+### Passo a passo para instalação:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu_usuario/seu_projeto.git
+   ```
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd seu_projeto
+   ```
+...
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+...
+
+- O usuário poderá se registrar, adicionar amigos, visualizar suas atividades e interagir com o sistema de gamificação.
+- Para visualizar as atividades de amigos, navegue até a seção "Amigos" e escolha um perfil.
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+- Repositório de imagens: ./assets/
+- Diagramas UML gerados com PlantUML.
+- Protótipos de interface gerados com Figma.
