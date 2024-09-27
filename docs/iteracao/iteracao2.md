@@ -1,8 +1,9 @@
 ---
-id: interação1
-title: Interação 1
+id: interação2
+title: Interação 2
 ---
-# Interação 1 (16/08/2024 à 29/08/2024)
+
+# Interação 2 (30/08/2024 à 12/09/2024)
 
 
 ## Planejamento de Interação
@@ -12,55 +13,44 @@ title: Interação 1
 
 |Tarefa|Responsabilidade|
 |---|----|
-| Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).|Todos|
-| Criar issues no GitHub |Todos|
-| Estudar e escolher as metodologias.|Todos|
-| [Pesquisa](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/pesquisamercado.md). |Todos|
-| Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/5w2h.md). |Alex|
+| Realizar Brainstorm | André Costa |
+| Conduzir Entrevista | Marcelo |
+| Criar Mapa Mental | Michel Lutegar |
 
 ## Sprint Retrospective/Review Meeting
 
 #### Presentes na reunião: Todos
 
-### Dividas da Interação
-- 
-- 
-- 
-- 
+### Dívidas da Interação
+- Nenhuma
 
 ### Riscos Encontrados
 
 - Nenhum: Plano de gerenciamento de riscos não implementado.
 
-
 ### Pontos Positivos
 
--
--
-- 
--
-![pontos positivos](../assets/Sprints/S1-positivos.png)
+- Comunicação
+- Colaborações em equipe
+
+![pontos positivos](../assets/Sprints/S2-positivos.png)
 
 ### Pontos Negativos
 
--
--
-- 
--
-![pontos negativos](../assets/Sprints/S1-negativos.png)
+- Falta de integrantes do grupo na apresentação do trabalho no dia 13, sem aviso prévio ao professor.
+
+![pontos negativos](../assets/Sprints/S2-negativos.png)
 
 ### O que podemos melhorar?
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+- Melhorar a comunicação de todas as partes da equipe.
 
 ### Ferramentas utilizadas
 
-- Reunião: [Hangouts](https://hangouts.google.com/)
-- Colheita dos pontos: [Mentimeter](https://www.mentimeter.com/)
+- ChatGPT
+- WhatsApp
+- Git
 
 ---
 
 ### Histórico de Edição:
-- Michel editou o documento em 26/09/2024, fazendo ajustes na pesquisa inicial e incluindo o 5w2H.
+- Iteração realizada no dia 27/09/2024. O brainstorm foi feito por André Costa, a entrevista conduzida por Marcelo e o mapa mental elaborado por Michel Lutegar.
