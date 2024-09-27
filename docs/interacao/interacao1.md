@@ -1,9 +1,7 @@
-
 ---
 id: interação1
 title: Interação 1
 ---
-
 # Interação 1 (16/08/2024 à 29/08/2024)
 
 
