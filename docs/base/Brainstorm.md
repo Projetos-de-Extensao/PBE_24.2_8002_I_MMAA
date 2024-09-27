@@ -1,8 +1,9 @@
+---
+id: documento_de_visao
+title: Documento de Visão
+---
+## Introdução
 
----
-id: brainstorm  
-title: Brainstorm
----
 
 ## Introdução
 <p align="justify">
