@@ -1,8 +1,9 @@
 ---
-id: interação1
-title: Interação 1
+id: interacao3
+title: Interação 3
 ---
-# Interação 1 (16/08/2024 à 29/08/2024)
+
+# Interação 3 (13/09/2024 à 26/09/2024)
 
 
 ## Planejamento de Interação
@@ -12,55 +13,45 @@ title: Interação 1
 
 |Tarefa|Responsabilidade|
 |---|----|
-| Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).|Todos|
-| Criar issues no GitHub |Todos|
-| Estudar e escolher as metodologias.|Todos|
-| [Pesquisa](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/pesquisamercado.md). |Todos|
-| Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/5w2h.md). |Alex|
+| Realizar Protótipo| André Costa|
+| Criar Documento de Visão| Alex Cyrillo|
+| Desenvolver Casos de Uso| Michel Lutegar|
+| Criar Diagrama de Classes| Michel Lutegar|
+| Apresentação de AP1| André Costa|
 
 ## Sprint Retrospective/Review Meeting
 
 #### Presentes na reunião: Todos
 
-### Dividas da Interação
-- 
-- 
-- 
-- 
+### Dívidas da Interação
+- Nenhuma
 
 ### Riscos Encontrados
-
-- Nenhum: Plano de gerenciamento de riscos não implementado.
-
+- Nenhum
 
 ### Pontos Positivos
+- Comunicação
+- Colaborações em equipe
 
--
--
-- 
--
-![pontos positivos](../assets/Sprints/S1-positivos.png)
+![pontos positivos](../assets/Sprints/S3-positivos.png)
 
 ### Pontos Negativos
+- Nenhum
 
--
--
-- 
--
-![pontos negativos](../assets/Sprints/S1-negativos.png)
+![pontos negativos](../assets/Sprints/S3-negativos.png)
 
 ### O que podemos melhorar?
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+- Não identificamos pontos de melhoria nesta interação.
 
 ### Ferramentas utilizadas
-
-- Reunião: [Hangouts](https://hangouts.google.com/)
-- Colheita dos pontos: [Mentimeter](https://www.mentimeter.com/)
+- ChatGPT
+- WhatsApp
+- Git
+- Figma
+- PlantUML
+- Canvas
 
 ---
 
 ### Histórico de Edição:
-- Michel editou o documento em 26/09/2024, fazendo ajustes na pesquisa inicial e incluindo o 5w2H.
+- Documento referente à iteração realizada no dia 27/09/2024, entre 13/09/2024 e 26/09/2024.
