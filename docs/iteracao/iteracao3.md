@@ -33,12 +33,8 @@ title: Interação 3
 - Comunicação
 - Colaborações em equipe
 
-![pontos positivos](../assets/Sprints/S3-positivos.png)
-
 ### Pontos Negativos
-- Nenhum
-
-![pontos negativos](../assets/Sprints/S3-negativos.png)
+- Nenhum.
 
 ### O que podemos melhorar?
 - Não identificamos pontos de melhoria nesta interação.
