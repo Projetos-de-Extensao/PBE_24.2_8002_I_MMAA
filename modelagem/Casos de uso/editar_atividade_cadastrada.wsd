@@ -1,0 +1,22 @@
+@startuml
+actor "Usuário Autenticado" as UsuarioAutenticado
+
+rectangle Sistema {
+  usecase "Acessar Histórico de Atividades" as UC_AcessarHistorico
+  usecase "Selecionar Atividade para Edição" as UC_SelecionarAtividade
+  usecase "Exibir Dados da Atividade" as UC_ExibirDadosAtividade
+  usecase "Editar Dados da Atividade" as UC_EditarDados
+  usecase "Validar Dados Editados" as UC_ValidarDados
+  usecase "Salvar Alterações" as UC_SalvarAlteracoes
+  usecase "Atualizar Histórico com Dados Editados" as UC_AtualizarHistorico
+}
+
+UsuarioAutenticado --> UC_AcessarHistorico
+UsuarioAutenticado --> UC_SelecionarAtividade
+UC_SelecionarAtividade --> UC_ExibirDadosAtividade
+UsuarioAutenticado --> UC_EditarDados
+UC_EditarDados --> UC_ValidarDados
+UC_ValidarDados --> UC_SalvarAlteracoes : [Dados Válidos]
+UC_SalvarAlteracoes --> UC_AtualizarHistorico
+UC_ValidarDados --> UC_ExibirDadosAtividade : [Dados Inválidos]
+@enduml

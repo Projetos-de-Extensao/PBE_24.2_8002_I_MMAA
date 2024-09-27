@@ -1,0 +1,15 @@
+@startuml
+actor "Usuário Autenticado" as UsuarioAutenticado
+
+rectangle Sistema {
+  usecase "Acessar Histórico de Atividades" as UC_AcessarHistorico
+  usecase "Exibir Lista de Atividades" as UC_ExibirListaAtividades
+  usecase "Selecionar Atividade para Ver Detalhes" as UC_SelecionarAtividade
+  usecase "Exibir Detalhes da Atividade" as UC_ExibirDetalhesAtividade
+}
+
+UsuarioAutenticado --> UC_AcessarHistorico
+UC_AcessarHistorico --> UC_ExibirListaAtividades
+UsuarioAutenticado --> UC_SelecionarAtividade
+UC_SelecionarAtividade --> UC_ExibirDetalhesAtividade
+@enduml

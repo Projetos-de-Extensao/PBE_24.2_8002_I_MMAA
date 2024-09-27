@@ -1,0 +1,15 @@
+@startuml
+actor "Usuário Autenticado" as Usuario
+
+rectangle Sistema {
+  usecase "Especificar Nome do Arquivo e Caminho" as UC_EspecificarArquivo
+  usecase "Validar Formato e Existência do Arquivo" as UC_ValidarArquivo
+  usecase "Importar Dados" as UC_ImportarDados
+  usecase "Exibir Mensagem de Erro" as UC_ExibirErro
+}
+
+Usuario --> UC_EspecificarArquivo
+UC_EspecificarArquivo --> UC_ValidarArquivo
+UC_ValidarArquivo --> UC_ImportarDados : Arquivo Válido
+UC_ValidarArquivo --> UC_ExibirErro : Arquivo Inválido
+@enduml
