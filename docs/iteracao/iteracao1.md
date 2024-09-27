@@ -1,9 +1,9 @@
 ---
-id: interação1
-title: Interação 1
+id: iteração1
+title: Iteração 1
 ---
 
-# Interação 1 (16/08/2024 à 29/08/2024)
+# Iteração 1 (16/08/2024 à 29/08/2024)
 
 
 ## Planejamento de Interação
