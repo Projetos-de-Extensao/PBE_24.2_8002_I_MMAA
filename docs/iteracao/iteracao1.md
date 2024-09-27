@@ -1,7 +1,9 @@
+
 ---
 id: interação1
 title: Interação 1
 ---
+
 # Interação 1 (16/08/2024 à 29/08/2024)
 
 
@@ -13,21 +15,23 @@ title: Interação 1
 |Tarefa|Responsabilidade|
 |---|----|
 | Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).|Todos|
-| Criar issues no GitHub |Todos|
-| Estudar e escolher as metodologias.|Todos|
-| [Pesquisa](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/pesquisamercado.md). |Todos|
-| Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/5w2h.md). |Alex|
+| Criar o repositório nos padrões (Organizar wiki).| Matheus|
+| Criar issues no GitHub / ZenHub| Renan|
+| Configuração do grupo do Telegram(configurar bot).|Moacir|
+| Estudar e escolher as metodologias.| Todos|
+| [Documento de visão](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+| Elaborar [5w2H](https://github.com/xxx/xxx.md) |Michel e XXX|
+| [Mapas Mentais](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) |Todos|
+|[Entrevistas](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+|[Prototipação.](https://github.com/xxx/xxx.md) |XXX e XXXXX|
 
 ## Sprint Retrospective/Review Meeting
 
 #### Presentes na reunião: Todos
 
-### Dividas da Interação
-- 
-- 
-- 
-- 
+### Dívidas da Interação
+- Nenhuma
 
 ### Riscos Encontrados
 
@@ -36,29 +40,20 @@ title: Interação 1
 
 ### Pontos Positivos
 
--
--
-- 
--
-![pontos positivos](../assets/Sprints/S1-positivos.png)
+- Comunicação
+- Colaborações em equipe
 
 ### Pontos Negativos
 
--
--
-- 
--
-![pontos negativos](../assets/Sprints/S1-negativos.png)
+- Nenhum
 
 ### O que podemos melhorar?
-- Ter mais foco na reuniões para evitar o desperdício de tempo.
-- A equipe deve ter mais autonomia em relação à falta de membros.
-- Podemos utilizar algo ferramenta de timebox para maior efetividade nas reuniões, sugestão: https://timebox.cedrotech.com/
+- Precisamos organizar mais encontros para alinhamento.
 
 ### Ferramentas utilizadas
 
-- Reunião: [Hangouts](https://hangouts.google.com/)
-- Colheita dos pontos: [Mentimeter](https://www.mentimeter.com/)
+- Git
+- WhatsApp
 
 ---
 
