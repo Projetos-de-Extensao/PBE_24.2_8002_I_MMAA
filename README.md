@@ -6,10 +6,10 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  Alex Cyrillo |
-| xx/xxxxxx  |  André Costa |
-| xx/xxxxxx  |  Marcelo Saggio |
-| xx/xxxxxx  |  Michel Lutegar |
+| 202401000191  |  Alex Cyrillo |
+| 202208385371  |  André Costa |
+| 202307164186 |  Marcelo Saggio |
+| 202208385192  |  Michel Lutegar |
 
 ## Sobre 
 Será projetado e codificado um sistema back-end de um aplicativo de gerenciamento de atividades físicas.
