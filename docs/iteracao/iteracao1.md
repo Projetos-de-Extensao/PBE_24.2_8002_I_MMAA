@@ -13,17 +13,11 @@ title: Interação 1
 
 |Tarefa|Responsabilidade|
 |---|----|
-| Decidir o nome o projeto.|Todos|
-| Criar o repositório nos padrões (Organizar wiki).| Matheus|
-| Criar issues no GitHub / ZenHub| Renan|
-| Configuração do grupo do Telegram(configurar bot).|Moacir|
-| Estudar e escolher as metodologias.| Todos|
-| [Documento de visão](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| Elaborar [5w2H](https://github.com/xxx/xxx.md) |Michel e XXX|
-| [Mapas Mentais](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-| [Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) |Todos|
-|[Entrevistas](https://github.com/xxx/xxx.md) |XXX e XXXXX|
-|[Prototipação.](https://github.com/xxx/xxx.md) |XXX e XXXXX|
+| Criar o repositório nos padrões (Organizar wiki).|Todos|
+| Criar issues no GitHub |Todos|
+| Estudar e escolher as metodologias.|Todos|
+| [Pesquisa](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/pesquisamercado.md). |Todos|
+| Elaborar [5w2H](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/base/5w2h.md). |Alex|
 
 ## Sprint Retrospective/Review Meeting
 
@@ -35,7 +29,6 @@ title: Interação 1
 ### Riscos Encontrados
 
 - Nenhum: Plano de gerenciamento de riscos não implementado.
-
 
 ### Pontos Positivos
 
