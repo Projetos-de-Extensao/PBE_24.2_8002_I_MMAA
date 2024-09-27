@@ -40,3 +40,4 @@ title: Mapas Mentais
 |------------| -- |--------------------------|----------------|
 | 04/09/2024 | 1.0 | Criação do documento     | Michel Lutegar |
 | 04/09/2024   | 2.0 | Adicionado Mapa mental 1 | Michel Lutegar      |
+| 04/09/2024   | 2.0 | Adicionado Mapa mental 2 | Michel Lutegar      |
