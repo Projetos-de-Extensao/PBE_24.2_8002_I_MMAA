@@ -3,7 +3,7 @@
 **Número do Grupo**: MMAA<br>
 **Código da Disciplina**: 8002.1<br>
 
-![Logo da Empresa](./assets/logo_empresa.png)
+![img_1.png](img_1.png)
 
 ## Alunos
 | Matrícula       | Aluno          |
@@ -24,7 +24,7 @@ Os usuários podem acessar suas métricas detalhadas, como distância, tempo e c
 - Relatórios detalhados de desempenho esportivo.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+![img_2.png](img_2.png)
 
 ## Instalação 
 **Linguagens**: Python (Django)<br>
@@ -53,7 +53,7 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 - Para visualizar as atividades de amigos, navegue até a seção "Amigos" e escolha um perfil.
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
+...
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
