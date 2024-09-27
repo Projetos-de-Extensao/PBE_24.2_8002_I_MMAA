@@ -59,6 +59,7 @@ O protótipo já oferece as principais funcionalidades de entrada de dados do us
 > Material Design Color Tool. Disponível em:  https://material.io/resources/color/#!/?view.left=0&view.right=0
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 5a. ed. EUA: Project Management Institute, 2013.
 > Ferramenta Figma. Disponível em https://www.figma.com
+
 > Link do Prototipo Figma: https://www.figma.com/design/F6UG0s12pPirG7UZoNFtmw/prototipo_PBE?node-id=0-1&t=y4zLJ26RvwlEagof-1
  
 ## Autor(es)
