@@ -55,6 +55,9 @@ Os usuários podem acessar suas métricas detalhadas, como distância, tempo e c
 ## Vídeo
 ...
 
+## AP1
+[Link da apresentação](https://www.canva.com/design/DAGRlQbBArg/zyFGLiDw9x5tJmuumkJaAQ/edit)
+
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 - Repositório de imagens: ./assets/
