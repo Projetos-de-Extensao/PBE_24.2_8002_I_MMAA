@@ -1,0 +1,11 @@
+@startuml
+actor Sistema as S
+actor Usuario as U
+
+rectangle "Sistema de Feedback" {
+    S --> (Verificar Ação Baseada no Feedback)
+    (Verificar Ação Baseada no Feedback) --> (Enviar Notificação ao Usuário)
+    (Enviar Notificação ao Usuário) --> U : Notificação Recebida
+}
+
+@enduml

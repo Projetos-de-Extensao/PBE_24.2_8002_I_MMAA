@@ -1,0 +1,20 @@
+@startuml
+top to bottom direction
+
+actor "Usuario" as User
+
+rectangle "Sistema SWOT Pessoal" {
+    usecase "Acessar funcionalidade SWOT" as Acessar
+    usecase "Visualizar histórico de análises" as VisualizarHistorico
+    usecase "Selecionar análise SWOT" as SelecionarAnalise
+    usecase "Visualizar análise selecionada" as VisualizarAnalise
+    usecase "Comparar com análise atual" as Comparar
+}
+
+User --> Acessar : Acessa a funcionalidade
+Acessar --> VisualizarHistorico : Visualiza o histórico de análises
+VisualizarHistorico --> SelecionarAnalise : Seleciona análise SWOT
+SelecionarAnalise --> VisualizarAnalise : Visualiza a análise selecionada
+VisualizarAnalise --> Comparar : Compara com análise atual (Opcional)
+
+@enduml

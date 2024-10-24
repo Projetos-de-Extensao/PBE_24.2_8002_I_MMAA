@@ -1,0 +1,12 @@
+@startuml
+actor Equipe_Plataforma as EP
+
+rectangle "Sistema de Feedback" {
+    EP --> (Acessar Seção de Análise de Feedbacks)
+    (Acessar Seção de Análise de Feedbacks) --> (Visualizar Lista de Feedbacks)
+    (Visualizar Lista de Feedbacks) --> (Filtrar Feedbacks por Data, Tipo, Categoria)
+    (Filtrar Feedbacks por Data, Tipo, Categoria) --> (Selecionar Feedback para Análise)
+    (Selecionar Feedback para Análise) --> (Marcar Feedback com Status)
+}
+
+@enduml
