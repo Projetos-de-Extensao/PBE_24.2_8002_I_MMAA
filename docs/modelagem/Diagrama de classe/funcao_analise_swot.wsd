@@ -1,0 +1,37 @@
+@startuml Diagrama de Classes Analise SWOT
+title Analise SWOT
+
+Usuario "1" -- "0..*" Swot
+Class Usuario{
+    -id:int
+    -nome:String
+    
+    -experiencia:
+    -carreiraAtual:
+    -nivelCarreiraAtual:
+
+    +listarAnalisesSwot():void
+}
+
+Class Swot{
+    -{static}periodoEntreAnalises:int
+    -{static}dataUltimaAnalise:int
+
+    -statusConclusao:boolean = false
+
+    -forca:String
+    -fraqueza:String
+    -oportunidade:String
+    -ameaca:String
+    -analiseSwot:String
+
+    -verificarConclusao():void
+    +criarSwot():void
+    +preencherSwot():void
+    +gerarAnaliseSwot():String
+    +visualizarAnalise():void
+
+    +modificarPeriodoEntreAnalises():void
+
+}
+@enduml
