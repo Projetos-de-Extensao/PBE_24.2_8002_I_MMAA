@@ -13,6 +13,8 @@ class Usuario{
 class Feedback{
     -tipoFeedback:String
     -feedback:String
+    -hora:
+    -data:
 
     -atribuirHora():void
     -atribuirData():void
