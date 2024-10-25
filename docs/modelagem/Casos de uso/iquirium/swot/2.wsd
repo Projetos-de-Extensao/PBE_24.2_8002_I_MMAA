@@ -1,0 +1,19 @@
+@startuml
+top to bottom direction
+
+actor "Usuario" as User
+
+rectangle "Sistema SWOT Pessoal" {
+    usecase "Acessar funcionalidade SWOT" as Acessar
+    usecase "Visualizar matriz SWOT anterior" as Visualizar
+    usecase "Atualizar informações da matriz" as Atualizar
+    usecase "Revisar e Confirmar alterações" as Revisar
+    usecase "Substituir matriz SWOT anterior" as Substituir
+}
+
+User --> Acessar : Acessa a funcionalidade
+Acessar --> Visualizar : Visualiza a matriz SWOT anterior
+Visualizar --> Atualizar : Atualiza as informações
+Atualizar --> Revisar : Revisão e confirmação
+Revisar --> Substituir : Substitui a matriz anterior
+@enduml
