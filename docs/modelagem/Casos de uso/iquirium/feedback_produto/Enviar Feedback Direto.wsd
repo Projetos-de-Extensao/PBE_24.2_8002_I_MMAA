@@ -1,0 +1,15 @@
+@startuml
+actor Usuario as U
+actor Equipe_Plataforma as EP
+
+rectangle "Sistema de Feedback" {
+    U --> (Acessar Seção de Feedback)
+    (Acessar Seção de Feedback) --> (Preencher Formulário de Feedback)
+    (Preencher Formulário de Feedback) --> (Enviar Feedback)
+    (Enviar Feedback) --> (Receber Confirmação de Envio)
+    (Enviar Feedback) --> (Armazenar Feedback no Banco de Dados)
+}
+
+(Armazenar Feedback no Banco de Dados) --> EP
+
+@enduml
