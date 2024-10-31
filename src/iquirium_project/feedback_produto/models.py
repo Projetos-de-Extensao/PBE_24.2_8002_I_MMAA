@@ -11,7 +11,7 @@ class Feedback(models.Model):
         ('relato_de_erros_ou_problemas_tecnicos', 'Relato de erros ou problemas técnicos'),
     ]
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='feedbacks')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='feedback_produto')
     tipo_feedback = models.CharField(max_length=50, choices=TIPO_FEEDBACK_CHOICES)
     data = models.DateTimeField(auto_now_add=True)
     hora = models.TimeField(auto_now_add=True)
