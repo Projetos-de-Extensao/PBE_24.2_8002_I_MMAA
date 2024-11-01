@@ -32,4 +32,4 @@ class Swot(models.Model):
         pass
 
     def __str__(self):
-        return f'{self.user.experiencia} - {self.user.carreiraAtual}'
+        return f'{self.user.experiencia} - {self.user.carreira_atual}'

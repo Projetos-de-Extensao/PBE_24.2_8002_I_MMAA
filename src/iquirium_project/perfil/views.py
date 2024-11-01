@@ -4,5 +4,5 @@ from .serializers import PerfilSerializer
 
 
 class PerfilViewSet(viewsets.ModelViewSet):
-    queryset = PerfilSerializer.objects.all()
-    serializer_class = Perfil
+    queryset = Perfil.objects.all()
+    serializer_class = PerfilSerializer

@@ -11,6 +11,7 @@ class Feedback(models.Model):
 
     user = models.ForeignKey(Perfil, on_delete=models.CASCADE, related_name='feedback_produto')
     tipo_feedback = models.CharField(max_length=50, choices=TIPO_FEEDBACK_CHOICES)
+    descricao_feedback = models.TextField()
     data = models.DateTimeField(auto_now_add=True)
     hora = models.TimeField(auto_now_add=True)
 
