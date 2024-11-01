@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # App de atividades
     'swot',
     'feedback_produto',
+    'perfil',
 ]
 
 MIDDLEWARE = [

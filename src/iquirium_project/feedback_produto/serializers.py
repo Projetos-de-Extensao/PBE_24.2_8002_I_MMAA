@@ -5,9 +5,9 @@ from .models import Feedback
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'username', 'email']
+        fields = '__all__'
 
 class FeedbackSerializer(serializers.ModelSerializer):
     class Meta:
         model = Feedback
-        fields = ['id', 'tipo_feedback', 'data', 'hora']
+        fields = '__all__'
