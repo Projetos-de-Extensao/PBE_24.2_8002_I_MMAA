@@ -12,7 +12,6 @@ class Perfil(models.Model):
     data_nascimento = models.DateField()
     sexo = models.CharField(max_length=50, choices=SEXO_CHOICES)
     telefone = models.CharField(max_length=20)
-    foto = models.ImageField(upload_to='perfil_fotos', blank=True, null=True)
     experiencia = models.CharField(max_length=100)
     carreira_atual = models.CharField(max_length=100)
     nivel_carreira_atual = models.IntegerField()

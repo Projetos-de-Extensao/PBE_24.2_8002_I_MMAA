@@ -1,6 +1,5 @@
 from django.db import models
-
-from iquirium_project.perfil.models import Perfil
+from perfil.models import Perfil
 
 
 class Swot(models.Model):
