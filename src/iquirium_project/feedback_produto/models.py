@@ -4,9 +4,9 @@ from perfil.models import Perfil
 
 class Feedback(models.Model):
     TIPO_FEEDBACK_CHOICES = [
-        ('comentarios_gerais', 'Comentários Gerais'),
-        ('sugestoes_de_melhoria', 'Sugestões de Melhoria'),
-        ('relato_de_erros_ou_problemas_tecnicos', 'Relato de erros ou problemas técnicos'),
+        ('comments', 'Comentários Gerais'),
+        ('sugestion', 'Sugestões de Melhoria'),
+        ('relates', 'Relato de erros ou problemas técnicos'),
     ]
 
     user = models.ForeignKey(Perfil, on_delete=models.CASCADE, related_name='feedback_produto')

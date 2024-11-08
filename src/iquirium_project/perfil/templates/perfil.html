@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Lista de Perfis</h1>
+<table id="perfilTable">
+    <thead>
+    <tr>
+        <th>Nome</th>
+        <th>Data de Nascimento</th>
+        <th>Sexo</th>
+        <th>Telefone</th>
+        <th>Experiência</th>
+        <th>Carreira Atual</th>
+        <th>Nível da Carreira Atual</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Os dados serão inseridos aqui dinamicamente -->
+    </tbody>
+</table>
+
+<script>
+    // URL da API
+    const apiUrl = "http://127.0.0.1:8000/api-perfil/perfil/";
+
+    // Função para buscar e exibir os perfis
+    async function fetchPerfis() {
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Authorization': 'Token 3304509211fb57c33d807f5c19e04744df69aed4',
+                    'Content-Type': 'application/json'
+                }
+            });
+            const perfis = await response.json();
+            const tableBody = document.querySelector("#perfilTable tbody");
+
+            perfis.forEach(perfil => {
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                        <td>${perfil.nome}</td>
+                        <td>${perfil.data_nascimento}</td>
+                        <td>${perfil.sexo}</td>
+                        <td>${perfil.telefone}</td>
+                        <td>${perfil.experiencia}</td>
+                        <td>${perfil.carreira_atual}</td>
+                        <td>${perfil.nivel_carreira_atual}</td>
+                    `;
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error("Erro ao buscar os perfis:", error);
+        }
+    }
+
+    // Chama a função ao carregar a página
+    window.onload = fetchPerfis;
+</script>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+</style>
+

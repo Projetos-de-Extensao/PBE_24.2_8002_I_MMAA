@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback dos Usuários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Lista de Feedbacks</h1>
+<table id="feedbackTable">
+    <thead>
+    <tr>
+        <th>Usuário</th>
+        <th>Tipo de Feedback</th>
+        <th>Descrição</th>
+        <th>Data</th>
+        <th>Hora</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Os dados serão inseridos aqui dinamicamente -->
+    </tbody>
+</table>
+
+<script>
+    // URL da API
+    const apiUrl = "http://127.0.0.1:8000/api-feedback/feedback_produto/";
+
+    // Função para buscar e exibir os dados de feedback
+    async function fetchFeedback() {
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Authorization': 'Token 3304509211fb57c33d807f5c19e04744df69aed4',
+                    'Content-Type': 'application/json'
+                }
+            });
+            const feedbacks = await response.json();
+            const tableBody = document.querySelector("#feedbackTable tbody");
+
+            feedbacks.forEach(feedback => {
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                        <td>${feedback.user}</td>
+                        <td>${feedback.tipo_feedback}</td>
+                        <td>${feedback.descricao_feedback}</td>
+                        <td>${new Date(feedback.data).toLocaleDateString()}</td>
+                        <td>${feedback.hora}</td>
+                    `;
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error("Erro ao buscar os feedbacks:", error);
+        }
+    }
+
+    // Chama a função ao carregar a página
+    window.onload = fetchFeedback;
+</script>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+</style>

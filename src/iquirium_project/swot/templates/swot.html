@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise SWOT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Lista de Análises SWOT</h1>
+<table id="swotTable">
+    <thead>
+    <tr>
+        <th>Usuário</th>
+        <th>Força</th>
+        <th>Fraqueza</th>
+        <th>Oportunidade</th>
+        <th>Ameaça</th>
+        <th>Análise SWOT</th>
+        <th>Data da Última Análise</th>
+        <th>Período Entre Análises (dias)</th>
+        <th>Status de Conclusão</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Os dados serão inseridos aqui dinamicamente -->
+    </tbody>
+</table>
+
+<script>
+    // URL da API
+    const apiUrl = "http://127.0.0.1:8000/api-swot/swot/";
+
+    // Função para buscar e exibir os dados SWOT
+    async function fetchSwot() {
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Authorization': 'Token 3304509211fb57c33d807f5c19e04744df69aed4',
+                    'Content-Type': 'application/json'
+                }
+            });
+            const swots = await response.json();
+            const tableBody = document.querySelector("#swotTable tbody");
+
+            swots.forEach(swot => {
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                        <td>${swot.user}</td>
+                        <td>${swot.forca}</td>
+                        <td>${swot.fraqueza}</td>
+                        <td>${swot.oportunidade}</td>
+                        <td>${swot.ameaca}</td>
+                        <td>${swot.analiseSwot}</td>
+                        <td>${new Date(swot.dataUltimaAnalise).toLocaleDateString()}</td>
+                        <td>${swot.periodoEntreAnalises}</td>
+                        <td>${swot.statusConclusao ? 'Concluído' : 'Pendente'}</td>
+                    `;
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error("Erro ao buscar as análises SWOT:", error);
+        }
+    }
+
+    // Chama a função ao carregar a página
+    window.onload = fetchSwot;
+</script>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+</style>
