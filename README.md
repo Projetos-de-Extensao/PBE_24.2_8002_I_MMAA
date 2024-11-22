@@ -1,4 +1,4 @@
-# IQirium (SWOT e FEEDBACK DE PRODUTO) - MMAA
+# IQuirium (SWOT e FEEDBACK DE PRODUTO) - MMAA
 
 **Número do Grupo**: MMAA<br>
 **Código da Disciplina**: 8002.1<br>
