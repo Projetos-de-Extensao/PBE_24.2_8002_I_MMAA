@@ -3,21 +3,16 @@ id: iteracao3
 title: Iteração 3
 ---
 
-# Iteração 3 (13/09/2024 à 26/09/2024)
-
+# Iteração 7 (08/11/2024 à 21/11/2024)
 
 ## Planejamento de Iteração
 #### Presentes na reunião: Todos
 
-###  Lista de Tarefas da Iteração
+### Lista de Tarefas da Iteração
 
-|Tarefa|Responsabilidade|
-|---|----|
-| Realizar Protótipo| André Costa|
-| Criar Documento de Visão| Alex Cyrillo|
-| Desenvolver Casos de Uso| Michel Lutegar|
-| Criar Diagrama de Classes| Michel Lutegar|
-| Apresentação de AP1| André Costa|
+| Tarefa                 | Responsabilidade |
+|------------------------|------------------|
+| Apresentação de AP2    | Todos            |
 
 ## Sprint Retrospective/Review Meeting
 
@@ -34,7 +29,7 @@ title: Iteração 3
 - Colaborações em equipe
 
 ### Pontos Negativos
-- Nenhum.
+- Nenhum
 
 ### O que podemos melhorar?
 - Não identificamos pontos de melhoria nesta Iteração.
@@ -50,4 +45,4 @@ title: Iteração 3
 ---
 
 ### Histórico de Edição:
-- Documento referente à iteração realizada no dia 27/09/2024, entre 13/09/2024 e 26/09/2024.
+- Atualizado em 22/11/2024 para refletir a Apresentação de AP2.
