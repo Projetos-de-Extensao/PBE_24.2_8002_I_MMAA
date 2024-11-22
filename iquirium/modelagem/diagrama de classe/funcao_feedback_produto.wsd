@@ -1,0 +1,31 @@
+@startuml Diagrama de Classes Envio de Feedback
+title Envio de Feedback
+
+Usuario "1" -- "0..*" Feedback
+
+class Usuario{
+    -id:int
+    -nome:String
+
+    +enviarFeedback(String feedback, String tipoFeedback):void
+}
+
+class Feedback{
+    -tipoFeedback:String
+    -feedback:String
+    -hora:
+    -data:
+
+    -atribuirHora():void
+    -atribuirData():void
+    -confirmarRecebimento():boolean
+    +criarFeedback(String feedback):void
+}
+
+enum tipoFeedback {
+    Comentários gerais
+    Sugestões de melhoria
+    Relato de erros ou problemas técnicos
+}
+
+@enduml

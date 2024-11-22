@@ -1,0 +1,19 @@
+@startuml
+actor "Sistema" as SistemaAutomatico
+actor "Usuário Autenticado" as UsuarioAutenticado
+
+rectangle Sistema {
+  usecase "Verificar Atividades Concluídas" as UC_VerificarAtividades
+  usecase "Verificar Horário para Atualização" as UC_VerificarHorario
+  usecase "Atualizar Dashboard com Dados Recentes" as UC_AtualizarDashboard
+  usecase "Exibir Dashboard Atualizado" as UC_ExibirDashboard
+}
+
+SistemaAutomatico --> UC_VerificarAtividades
+SistemaAutomatico --> UC_VerificarHorario
+UC_VerificarAtividades --> UC_AtualizarDashboard
+UC_VerificarHorario --> UC_AtualizarDashboard
+UC_AtualizarDashboard --> UC_ExibirDashboard
+
+UsuarioAutenticado --> UC_ExibirDashboard
+@enduml

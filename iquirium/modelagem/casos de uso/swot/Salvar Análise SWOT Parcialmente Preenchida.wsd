@@ -1,0 +1,20 @@
+@startuml
+top to bottom direction
+
+actor "Usuario" as User
+
+rectangle "Sistema SWOT Pessoal" {
+    usecase "Acessar funcionalidade SWOT" as Acessar
+    usecase "Preencher análise SWOT" as Preencher
+    usecase "Salvar análise como Pendente" as SalvarPendente
+    usecase "Retornar para completar análise" as CompletarAnalise
+    usecase "Concluir análise SWOT" as Concluir
+}
+
+User --> Acessar : Acessa a funcionalidade
+Acessar --> Preencher : Preenche parcialmente a análise
+Preencher --> SalvarPendente : Salva como Pendente
+User --> CompletarAnalise : Retorna para completar análise
+CompletarAnalise --> Concluir : Conclui a análise
+
+@enduml

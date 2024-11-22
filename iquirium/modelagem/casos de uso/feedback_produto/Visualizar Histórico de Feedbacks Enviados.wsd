@@ -1,0 +1,11 @@
+@startuml
+actor Usuario as U
+
+rectangle "Sistema de Feedback" {
+    U --> (Acessar Histórico de Feedbacks)
+    (Acessar Histórico de Feedbacks) --> (Exibir Lista de Feedbacks)
+    (Exibir Lista de Feedbacks) --> (Selecionar Feedback Específico)
+    (Selecionar Feedback Específico) --> (Visualizar Detalhes do Feedback)
+}
+
+@enduml
