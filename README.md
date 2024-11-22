@@ -66,7 +66,9 @@ A funcionalidade **Captura de Feedbacks sobre o Produto** foi desenvolvida para 
 
 
 ## Vídeo
-...
+
+[Assista ao vídeo](https://github.com/Projetos-de-Extensao/PBE_24.2_8002_I_MMAA/blob/main/docs/video.MP4)
+
 
 ## AP2
 [Link da apresentação](https://www.canva.com/design/DAGXNEx96wo/MYPEzfiXA8DXCQRMkSxdyw/edit?utm_content=DAGXNEx96wo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
